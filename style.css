@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(60deg, rgba(4, 215, 243, 0.829) 7%, rgba(94, 6, 236, 0.747) 29%, rgba(255, 0, 238, 0.697) 88%); 
+
+}
+.container{
+    margin-top:50px;
+    margin-bottom:50px;
+    border-radius: 6px;
+    width: 340px;
+    height: 600px;
+    padding: 25px 50px 75px;
+    background: white;
+}
+.top{
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.input_field{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.675);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548); 
+    
+}
+.input_field img{
+    height: 15px;
+    width: 15px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.input{
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.fpass{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: right;
+    border: none;
+    font-size: 14px;
+}
+.fpass a{
+    text-decoration: none;
+    color: black;
+
+}
+.bottom{
+    display: flex; 
+    height: 20px;
+    font-size: 15px;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: linear-gradient(60deg, rgba(4, 215, 243, 0.829) 
+                                7%, rgba(94, 6, 236, 0.747) 
+                                 29%, rgba(255, 0, 238, 0.697) 88%);  
+}
+.bottom:hover{
+    background: linear-gradient(30deg, rgba(94, 6, 236, 0.747) 7%, rgba(255, 0, 238, 0.697)  29%, rgba(4, 215, 243, 0.829) 88%); 
+    color: aliceblue;
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+} 
+.lgo{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+}
+.signup{
+    margin-top: 110px;
+    text-align: center;
+}
+.sip{
+    margin-top: 20px;
+    text-align: center;
+}
+.sip a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    padding-bottom: 10px;
+}
